@@ -14,4 +14,4 @@ Name the Lambda function from your screenshot. Why did Chalice create this funct
 
 **Your answer:**
 
-...
+The lambda function that answers the request is book-analyzer-dev. Chalice created this instead of using `book-analyzer-dev-analyze_new_book` from Lab 07 because chalice recognizes the @app.route(...), which respond to HTTP requests instead of s3 uploads, and manages the lambda infrastrucute needed to serve those routes.
